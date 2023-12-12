@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ss joy portfollio</title>
+    <!-- internal css link -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <!-- tailwind and daisy ui cdn -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.2.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+<!-- --------------font asewome------------ -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind custom classes -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        btn: '#da373d',
+                        'primary': '#E76F51',
+                        'primary-bg': 'rgba(231, 111, 81, 0.10)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- custom styles -->
+    <style>
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="container">
+<!-- -----------------------------nav---------------- -->
+            <nav>
+                <img src="./images/logo.png" alt="" class="logo">
+                
+                <ul id="sidemenu">
+                    <li><a href="#index.html">Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#services"> Services</a></li>
+                    <li><a href="#portfollio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <!-- ---------headding text add ----------------->
+            <div class="flex">
+                <div class="header-text">
+                    <p class="text-white"> WEB Design & web Developer</p>
+                    <h1> Hi, I'm <span>Shahsultan Islam Joy</span><br> From Bangladeh</h1>
+                </div>
+    <!-- animation img -->
+             <div  id="header">
+                </div>
+            </div>
+            <!-- headding text end  -->
+        </div>
+    </div>
+    <!-- header end -->
+
+
+
+    <!-- ..........................about start -->
+    <div id="about">
+        <div class="container">
+            <!-- --------------- about me  -------------------->
+            <div class="row bg-[#390e31] shadow-xl">
+                <div class="about-col-1">
+                    <img src="./images/profile img.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="praragraph"> 
+                        Hi there! I'm Shahsultan Islam Joy, a seasoned full-stack web developer passionate about turning ideas into robust and visually appealing digital solutions. With 2 years of experience,
+                         I've successfully delivered projects for clients worldwide.
+                        </p>
+                        <!-- icon---- -->
+
+                        <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 rtl:space-x-reverse">
+                            <a href="#" class="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 64 64">
+                                    <linearGradient id="r4wzZI4nTYpRSYqL7WQ95a_48137_gr1" x1="37" x2="37" y1="14.5" y2="19.332" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#r4wzZI4nTYpRSYqL7WQ95a_48137_gr1)" d="M37 14.854A2 2 0 1 0 37 18.854A2 2 0 1 0 37 14.854Z"></path><linearGradient id="r4wzZI4nTYpRSYqL7WQ95b_48137_gr2" x1="27" x2="27" y1="14.5" y2="19.332" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#r4wzZI4nTYpRSYqL7WQ95b_48137_gr2)" d="M27 14.854A2 2 0 1 0 27 18.854A2 2 0 1 0 27 14.854Z"></path><linearGradient id="r4wzZI4nTYpRSYqL7WQ95c_48137_gr3" x1="32" x2="32" y1="5.25" y2="59.232" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#1a6dff"></stop><stop offset="1" stop-color="#c822ff"></stop></linearGradient><path fill="url(#r4wzZI4nTYpRSYqL7WQ95c_48137_gr3)" d="M49,22h-2h-0.049c-0.284-4.495-2.458-8.387-5.765-10.919l3.521-3.521l-1.414-1.414 l-3.807,3.807C37.293,8.713,34.747,8,32,8s-5.294,0.713-7.486,1.953l-3.807-3.807l-1.414,1.414l3.521,3.521 c-3.307,2.532-5.48,6.424-5.765,10.919H17h-2c-2.243,0-4,1.692-4,3.854v13c0,2.206,1.794,4,4,4c0.732,0,1-0.212,2-0.556v1.556 c0,2.438,2,4.545,4,5.038v4.962c0,2.206,1.794,4,4,4s4-1.794,4-4V49h6v4.854c0,2.206,1.794,4,4,4s4-1.794,4-4v-4.962 c2-0.492,4-2.599,4-5.038v-1.556c1,0.344,1.268,0.556,2,0.556c2.206,0,4-1.794,4-4v-13C53,23.692,51.243,22,49,22z M32,10 c6.953,0,12.469,5.194,12.964,12H19.036C19.531,15.194,25.047,10,32,10z M15,40.854c-1.103,0-2-0.897-2-2v-13 C13,24.797,13.859,24,15,24h2v14.854C17,39.956,16.103,40.854,15,40.854z M27,53.854c0,1.103-0.897,2-2,2s-2-0.897-2-2V49h4V53.854z M39,55.854c-1.103,0-2-0.897-2-2V49h4v4.854C41,54.956,40.103,55.854,39,55.854z M45,43.854C45,45.56,43.626,47,42,47H22 c-1.626,0-3-1.44-3-3.146v-5V24h26v14.854V43.854z M51,38.854c0,1.103-0.897,2-2,2s-2-0.897-2-2V24h2c1.141,0,2,0.797,2,1.854 V38.854z"></path>
+                                    </svg>
+                                <div class="text-left rtl:text-right">
+                                    <div class="mb-1 text-xs">Android</div>
+                                    <div class="-mt-1 font-sans text-sm font-semibold"> App developer </div>
+                                </div>
+                            </a>
+                            <a href="#" class="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+                                <!-- Add React Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 64 64">
+                                    <linearGradient id="9GkdZLxQa1XTDblOFwLcpa_t4YbEbA834uH_gr1" x1="32" x2="32" y1="25.213" y2="36.722" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><circle cx="32" cy="32" r="6" fill="url(#9GkdZLxQa1XTDblOFwLcpa_t4YbEbA834uH_gr1)"></circle><linearGradient id="9GkdZLxQa1XTDblOFwLcpb_t4YbEbA834uH_gr2" x1="32" x2="32" y1="7.426" y2="53.44" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1a6dff"></stop><stop offset="1" stop-color="#c822ff"></stop></linearGradient><path fill="url(#9GkdZLxQa1XTDblOFwLcpb_t4YbEbA834uH_gr2)" d="M58,32c0-3.758-4.243-7.017-10.853-8.992c0.221-1.031,0.407-2.045,0.524-3.015	c0.657-5.483-0.483-9.323-3.211-10.813c-2.729-1.489-6.574-0.372-10.831,3.146c-0.544,0.449-1.087,0.938-1.629,1.45	c-0.542-0.513-1.085-1.001-1.629-1.45C26.114,8.808,22.267,7.692,19.54,9.18c-2.728,1.489-3.868,5.329-3.211,10.813	c0.116,0.971,0.303,1.984,0.524,3.015C10.243,24.983,6,28.242,6,32s4.243,7.017,10.853,8.992c-0.221,1.031-0.407,2.045-0.524,3.015	c-0.657,5.483,0.483,9.323,3.211,10.813c0.789,0.431,1.67,0.643,2.628,0.643c2.357,0,5.177-1.287,8.203-3.788	c0.544-0.449,1.087-0.938,1.629-1.45c0.542,0.513,1.085,1.001,1.629,1.45c3.026,2.501,5.846,3.788,8.203,3.788	c0.958,0,1.84-0.213,2.628-0.643c2.728-1.489,3.868-5.329,3.211-10.813c-0.116-0.971-0.303-1.984-0.524-3.015	C53.757,39.017,58,35.758,58,32z M34.902,13.866c3.53-2.917,6.665-3.987,8.599-2.931c1.934,1.055,2.729,4.27,2.184,8.818	c-0.105,0.879-0.273,1.796-0.469,2.729c-2.117-0.519-4.43-0.915-6.892-1.166c-1.564-2.275-3.215-4.351-4.908-6.132	C33.91,14.718,34.406,14.276,34.902,13.866z M39.899,36.313c-0.853,1.562-1.76,3.055-2.702,4.474C35.546,40.925,33.811,41,32,41	s-3.546-0.075-5.198-0.213c-0.941-1.42-1.849-2.912-2.702-4.474c-0.784-1.435-1.499-2.878-2.142-4.313	c0.643-1.434,1.358-2.877,2.142-4.313c0.853-1.562,1.76-3.055,2.702-4.474C28.454,23.075,30.189,23,32,23s3.546,0.075,5.198,0.213	c0.941,1.42,1.849,2.912,2.702,4.474c0.784,1.435,1.499,2.878,2.142,4.313C41.399,33.434,40.683,34.877,39.899,36.313z M43.078,34.487c0.68,1.739,1.238,3.444,1.676,5.096c-1.544,0.376-3.21,0.694-5.009,0.929c0.657-1.05,1.3-2.124,1.909-3.241	C42.161,36.346,42.629,35.416,43.078,34.487z M32,47.403c-1.272-1.341-2.522-2.863-3.729-4.513C29.487,42.961,30.73,43,32,43	s2.513-0.039,3.729-0.11C34.522,44.54,33.272,46.062,32,47.403z M24.254,40.512c-1.799-0.235-3.465-0.553-5.009-0.929	c0.438-1.652,0.996-3.358,1.676-5.096c0.45,0.93,0.918,1.859,1.423,2.785C22.954,38.388,23.597,39.462,24.254,40.512z M20.922,29.513c-0.68-1.739-1.238-3.445-1.676-5.096c1.544-0.376,3.21-0.694,5.009-0.929c-0.657,1.05-1.3,2.124-1.909,3.241	C21.839,27.654,21.371,28.584,20.922,29.513z M32,16.597c1.272,1.341,2.522,2.863,3.729,4.513C34.513,21.039,33.27,21,32,21	s-2.513,0.039-3.729,0.11C29.478,19.46,30.728,17.938,32,16.597z M41.655,26.729c-0.609-1.116-1.252-2.19-1.909-3.241	c1.799,0.235,3.465,0.553,5.009,0.929c-0.438,1.652-0.996,3.358-1.676,5.096C42.629,28.584,42.161,27.654,41.655,26.729z M18.315,19.754c-0.546-4.549,0.25-7.764,2.184-8.818c0.488-0.267,1.053-0.397,1.681-0.397c1.86,0,4.278,1.147,6.918,3.328	c0.496,0.41,0.993,0.852,1.488,1.319c-1.693,1.781-3.345,3.856-4.908,6.132c-2.463,0.251-4.776,0.648-6.892,1.166	C18.588,21.55,18.421,20.633,18.315,19.754z M8,32c0-2.6,3.47-5.303,9.317-7.06c0.606,2.279,1.437,4.654,2.471,7.06	c-1.034,2.407-1.865,4.782-2.471,7.06C11.47,37.303,8,34.6,8,32z M29.098,50.134c-3.53,2.917-6.662,3.989-8.599,2.931	c-1.934-1.055-2.729-4.27-2.184-8.818c0.105-0.879,0.273-1.796,0.469-2.729c2.117,0.519,4.43,0.915,6.892,1.166	c1.564,2.275,3.215,4.351,4.908,6.132C30.09,49.282,29.594,49.724,29.098,50.134z M45.685,44.246	c0.546,4.549-0.25,7.764-2.184,8.818c-1.934,1.059-5.068-0.014-8.599-2.931c-0.496-0.41-0.993-0.852-1.488-1.319	c1.693-1.781,3.345-3.856,4.908-6.132c2.463-0.251,4.776-0.648,6.892-1.166C45.412,42.45,45.579,43.367,45.685,44.246z M46.683,39.06c-0.606-2.279-1.437-4.654-2.471-7.06c1.034-2.407,1.865-4.782,2.471-7.06C52.53,26.697,56,29.4,56,32	S52.53,37.303,46.683,39.06z"></path>
+                                    </svg>
+                                <!-- End React Icon -->
+                                <div class="text-left rtl:text-right">
+                                    <div class="mb-1 text-xs"> React</div>
+                                    <div class="-mt-1 font-sans text-sm font-semibold"> most Popular language </div>
+                                </div>
+                            </a>
+                            <a href="#" class="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+                                <!-- Add Firebase Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                                    <path fill="#ffa000" d="M25.01,8.565c-0.386-0.753-1.466-0.755-1.848,0l-2.347,4.426L15.404,2.547 c-0.471-0.874-1.798-0.653-1.952,0.325L8.003,37.997L30.25,18.75L25.01,8.565z"></path><path fill="#f57f17" d="M25.795 22.604L20.815 12.992 8.003 37.997z"></path><path fill="#ffca28" d="M35.859,11.838c-0.13-0.802-1.115-1.12-1.69-0.544L8.003,38.002l14.479,7.614 c0.917,0.512,2.034,0.512,2.951,0.001L40,38.005L35.859,11.838z"></path>
+                                    </svg>
+                                <!-- End Firebase Icon -->
+                                <div class="text-left rtl:text-right">
+                                    <div class="mb-1 text-xs">Firebase</div>
+                                    <div class="-mt-1 font-sans text-sm font-semibold">Backend expert</div>
+                                </div>
+                            </a>
+                            <a href="#" class="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+                                <!-- Add MongoDB Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                                    <path fill="#5d4037" d="M42,17.3C42,37.8,24,44,24,44S6,37.8,6,17.3c0-2.5,0.2-4.6,0.4-6.3c0.3-2.5,2-4.5,4.4-5.1 C13.9,5,18.8,4,24,4s10.1,1,13.3,1.9c2.4,0.6,4.1,2.7,4.4,5.1C41.8,12.7,42,14.9,42,17.3z"></path><path fill="#4caf50" d="M24,7c4.9,0,9.5,1,12.5,1.8c1.2,0.3,2,1.3,2.2,2.6c0.2,1.9,0.3,3.9,0.3,5.9c0,15.6-11.5,21.9-15,23.4 c-3.5-1.6-15-7.9-15-23.4c0-2,0.1-4,0.3-5.9c0.1-1.3,1-2.3,2.2-2.6C14.5,8,19.1,7,24,7 M24,4c-5.2,0-10.1,1-13.3,1.9 C8.4,6.5,6.6,8.6,6.4,11C6.2,12.7,6,14.9,6,17.3C6,37.8,24,44,24,44s18-6.2,18-26.7c0-2.5-0.2-4.6-0.4-6.3c-0.3-2.5-2-4.5-4.4-5.1 C34.1,5,29.2,4,24,4L24,4z"></path><path fill="#dcedc8" d="M23 28H25V36H23z"></path><path fill="#4caf50" d="M24,10c0,0-6,5-6,13c0,5.2,3.3,8.5,5,10l1-3l1,3c1.7-1.5,5-4.8,5-10C30,15,24,10,24,10z"></path><path fill="#81c784" d="M24,10c0,0-6,5-6,13c0,5.2,3.3,8.5,5,10l1-3V10z"></path>
+                                    </svg>
+                                <!-- End MongoDB Icon -->
+                                <div class="text-left rtl:text-right">
+                                    <div class="mb-1 text-xs"> MongoDB </div>
+                                    <div class="-mt-1 font-sans text-sm font-semibold">Databse manage</div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                  
+                    </div>
+            </div>
+            <!-- ------------------------------------------  tab  ----------------->
+                       
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience') ">Experience</p>
+                        <p class="tab-links  " onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- ------end tap ------->
+
+                    <!-- ..................... content skill............... -->
+
+                    <div class="tap-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> UI</span><br> web Application and app Desingn</li>
+                            <li><span> Web Development</span><br> Full stack web Development with <br>React js ,Next js<br> Tailwind, daisy ui,css3 ,matarial ui <br> 
+                                Mongodb,Firebase,express js,varcel</li>
+                            <li><span> App Development</span><br> App interface/ Website into app</li>
+                        </ul>
+                    </div>
+                    <!-- experience -->
+                    <div class="tap-contents" id="experience">
+                        <ul>
+                            <li><span> 2023 current</span><br> Full stack Developer</li>
+
+                            <li><span>2020-2021</span><br>c program,java script expert</li>
+                            <li><span> 2022</span><br> App interface/ Website into app</li>
+                        </ul>
+                    </div>
+
+                    <!-- end -->
+
+                    <!-- education -->
+                    <div class="tap-contents" id="education">
+                        <ul>
+                            <li><span> 2023</span><br><strong>Computer science and engineering (CSE) </strong></li>
+                            <li><span> 2017</span><br> Jonior School Certificate Nabarun Public School</li>
+                            <li><span> 2019</span><br> srcondery school certificate </li>
+                            <li><span> 2021</span><br> Higher school certificate</li>
+                        
+                        </ul>
+                    </div>
+
+                    <!-- end -->
+
+                
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ........---------div srvices ----------...... -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div class="div">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend web development</h2>
+                    <p>Frontend web development involves creating the user interface and user experience of a website or web application. It typically involves working with technologies such as HTML, CSS, and JavaScript. Here's a brief overview of what a frontend web developer does and some key technologies you might want to be familiar with:
+
+                      <strong>  1.HTML (HyperText Markup Language):</strong>
+                        
+                        <br>The standard markup language for creating web pages.
+                        Defines the structure and layout of content on a web page.
+                        CSS (Cascading Style Sheets):
+                        
+                       <br> 
+                       <strong>2.Used for styling and formatting web pages.</strong>
+                        Controls the visual presentation of HTML elements.
+                        <br>
+                       <strong>3. JavaScript:</strong>
+                     
+                        A scripting language that allows you to create dynamic and interactive web pages.
+                        Often used to add behavior to websites, handle user input, and communicate with back-end services.
+                        Responsive Web Design:
+                        <br>
+                       <strong>4. Popular frameworks</strong> like React, Angular, or Vue.js can enhance your development workflow and help you build more complex and scalable applications.
+                     
+                        
+                        </p>
+                    <a href="#">learn more</a>
+                </div>
+                <!--.................. 2nd .................-->
+                <div class="div">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h1>About MERN Stack Developer</h1>
+                    <p>
+                        A MERN stack developer is a professional who specializes in using the MERN stack to build web applications.
+                        The MERN stack is a popular and powerful combination of technologies for web development, consisting of four key components:
+                    </p>
+                
+                    <ul>
+                        <li>
+                            <strong>MongoDB (M):</strong> A NoSQL database that stores data in a flexible, JSON-like format.
+                            It is designed to be scalable and can handle large amounts of data.
+                        </li>
+                        <li>
+                            <strong>Express.js (E):</strong> A minimal and flexible Node.js web application framework that provides a robust set
+                            of features for web and mobile applications. It facilitates the creation of RESTful APIs for communication between the
+                            frontend and the backend.
+                        </li>
+                        <li>
+                            <strong>React (R):</strong> A JavaScript library for building user interfaces. React allows developers to create
+                            reusable UI components that can efficiently update and render based on changes in the application state. It is maintained by Facebook.
+                        </li>
+                        <li>
+                            <strong>Node.js (N):</strong> A JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js enables developers
+                            to run JavaScript on the server side, allowing for the creation of server-side logic and handling of requests.
+                        </li>
+                    </ul>
+                    <a href="#">learn more</a>
+                </div>
+                <!-- 3rd -->
+                <div class="div">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 64 64">
+                        <linearGradient id="r4wzZI4nTYpRSYqL7WQ95a_48137_gr1" x1="37" x2="37" y1="14.5" y2="19.332" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#r4wzZI4nTYpRSYqL7WQ95a_48137_gr1)" d="M37 14.854A2 2 0 1 0 37 18.854A2 2 0 1 0 37 14.854Z"></path><linearGradient id="r4wzZI4nTYpRSYqL7WQ95b_48137_gr2" x1="27" x2="27" y1="14.5" y2="19.332" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#r4wzZI4nTYpRSYqL7WQ95b_48137_gr2)" d="M27 14.854A2 2 0 1 0 27 18.854A2 2 0 1 0 27 14.854Z"></path><linearGradient id="r4wzZI4nTYpRSYqL7WQ95c_48137_gr3" x1="32" x2="32" y1="5.25" y2="59.232" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#1a6dff"></stop><stop offset="1" stop-color="#c822ff"></stop></linearGradient><path fill="url(#r4wzZI4nTYpRSYqL7WQ95c_48137_gr3)" d="M49,22h-2h-0.049c-0.284-4.495-2.458-8.387-5.765-10.919l3.521-3.521l-1.414-1.414 l-3.807,3.807C37.293,8.713,34.747,8,32,8s-5.294,0.713-7.486,1.953l-3.807-3.807l-1.414,1.414l3.521,3.521 c-3.307,2.532-5.48,6.424-5.765,10.919H17h-2c-2.243,0-4,1.692-4,3.854v13c0,2.206,1.794,4,4,4c0.732,0,1-0.212,2-0.556v1.556 c0,2.438,2,4.545,4,5.038v4.962c0,2.206,1.794,4,4,4s4-1.794,4-4V49h6v4.854c0,2.206,1.794,4,4,4s4-1.794,4-4v-4.962 c2-0.492,4-2.599,4-5.038v-1.556c1,0.344,1.268,0.556,2,0.556c2.206,0,4-1.794,4-4v-13C53,23.692,51.243,22,49,22z M32,10 c6.953,0,12.469,5.194,12.964,12H19.036C19.531,15.194,25.047,10,32,10z M15,40.854c-1.103,0-2-0.897-2-2v-13 C13,24.797,13.859,24,15,24h2v14.854C17,39.956,16.103,40.854,15,40.854z M27,53.854c0,1.103-0.897,2-2,2s-2-0.897-2-2V49h4V53.854z M39,55.854c-1.103,0-2-0.897-2-2V49h4v4.854C41,54.956,40.103,55.854,39,55.854z M45,43.854C45,45.56,43.626,47,42,47H22 c-1.626,0-3-1.44-3-3.146v-5V24h26v14.854V43.854z M51,38.854c0,1.103-0.897,2-2,2s-2-0.897-2-2V24h2c1.141,0,2,0.797,2,1.854 V38.854z"></path>
+                        </svg>
+                    <h2>App Developer</h2>
+                    <p>
+                        Android is one of the most widely used mobile platforms globally, powering a vast range of devices, including smartphones, tablets, smartwatches, and more.
+                    </p>
+                
+                    <p>Key Aspects of Android App Development</p>
+                
+                    <ol>
+                        <li>
+                            <strong>Programming Languages:</strong> Android apps are commonly developed using Java or Kotlin programming languages. Kotlin, introduced by JetBrains, is the preferred language for Android development, and many developers have transitioned from Java to Kotlin due to its conciseness and modern features.
+                        </li>
+                        <li>
+                            <strong>Android Studio:</strong> Developers use Android Studio, the official integrated development environment (IDE) for Android app development. It provides tools for coding, debugging, testing, and performance optimization.
+                        </li>
+                        
+                        <li>
+                            <strong>Networking:</strong> Android app developers implement networking functionality to enable communication between the app and external servers or APIs. This is crucial for features like fetching data from the internet.
+                        </li>
+                        <li>
+                            <strong>Testing:</strong> Developers conduct unit testing, integration testing, and UI testing to ensure the reliability and functionality of their Android apps. Android Studio provides tools for testing, and developers may also use third-party testing frameworks.
+                        </li>
+                       
+                    </ol>
+                    <a href="#">learn more</a>
+                </div>
+                <!-- end -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------.........portfolio................. ----- -->
+
+    <div id="portfollio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>social Media app</h3>
+                        <p>This app conected around the world. we can easy visited now. Downdoad it from store
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                    <!-- end -->
+                </div>
+
+                <div class="work">
+                    <img src="./images/work-2.png" alt="">
+                    <!-- layer -->
+                    <div class="layer">
+                        <h3>Website Covert App</h3>
+                        <p>This app conected around the world. we can easy visited now. Downdoad it from store
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                    <!-- end layer -->
+                </div>
+
+                <div class="work">
+                    <img src="./images/work-3.png" alt="">
+                    <!-- start  -->
+                    <div class="layer">
+                        <h3>E-commerce App</h3>
+                        <p>This app conected around the world. we can easy visited now. Downdoad it from store
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn"> See more </a>
+        </div>
+    </div>
+
+<!--..................skills.................. -->
+<div class="container-skill w-max-6xl rounded-xl">
+    <div class="skill-box">
+        <span class="title">HTML</span>
+        <div class="skill-bar">
+            <span class="skill-per html">
+                <span class="tooltip">90%</span>
+            </span>
+        </div>
+    </div>
+    <div class="skill-box">
+        <span class="title">React</span>
+        <div class="skill-bar">
+            <span class="skill-per react">
+                <span class="tooltip">80%</span>
+            </span>
+        </div>
+    </div>
+    <div class="skill-box">
+        <span class="title">CSS+Tailwind+Daisy ui</span>
+        <div class="skill-bar">
+            <span class="skill-per css">
+                <span class="tooltip">70%</span>
+            </span>
+        </div>
+    </div>
+   
+    <div class="skill-box">
+        <span class="title">JavaScript+Firebase+varcel</span>
+        <div class="skill-bar">
+            <span class="skill-per javascript">
+                <span class="tooltip">50%</span>
+            </span>
+        </div>
+    </div>
+    <div class="skill-box">
+        <span class="title">NodeJS+Express js+Mongodb</span>
+        <div class="skill-bar">
+            <span class="skill-per nodejs">
+                <span class="tooltip">30%</span>
+            </span>
+        </div>
+    </div>
+</div>
+
+    <!-- --------------- contact.................................... -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">
+                        Contact Me
+                    </h1>
+                    <p> <i class="fa-regular fa-paper-plane"></i>ssjoy370@gmail.com</p>
+                    <p><i class="fa-light fa-phone-volume"></i>01575081734</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100076554405652"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></i></a>
+                        <a href="https://www.instagram.com/shahsultan_joy370/">
+                            <i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your name" required>
+
+                        <input type="email" name="Email" placeholder="your Email" required>
+
+
+                        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <!-- ..................fotter......... -->
+        <div class="copyright">
+            <p>copyright @ made with <i class="fa-solid fa-heart"></i> shahsultan islam joy</p>
+        </div>
+    </div>
+
+    <!-- font asowem -->
+
+    <script src="./js/Font-Awesome.js"></script>
+    <!-- about -->
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+    for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+    </script>
+
+
+
+
+
+
+
+
+
+    <!-- menu bar small device -->
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+    <!-- google sheed java----------------------------- -->
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzQRD3UyevKlWWuV-kWDPm4qivWIDXEtMI7Qnn6_nP1WzZxRTe-WNIYq5gFSxXvjB4/exec'
+
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "masage sent successfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                }, )
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+<!-- ----------------script-------- -->
+
+</body>
+
+</html>
