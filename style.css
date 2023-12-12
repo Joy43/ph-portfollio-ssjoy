@@ -23,7 +23,7 @@ body {
     background-position: center;
     justify-content: center;
     background-repeat: no-repeat;
-    animation: change 5s infinite ease-in-out;
+    animation: change 10s infinite ease-in-out;
 }
 
 
@@ -31,46 +31,46 @@ body {
 
 @keyframes change {
     0% {
-        background-image: url(./images/7.png);
+        background-image: url(./portfolli-img/Home-page.png);
     }
     10% {
-        background-image: url(./images/8.png);
+        background-image: url(./portfolli-img/bandproduct.png);
     }
     20% {
-        background-image: url(./images/4.jpg);
+        background-image: url(./portfolli-img/beautypalar.png);
     }
     30% {
-        background-image: url(./images/5.jpg);
+        background-image: url(./portfolli-img/course.png);
     }
     40% {
-        background-image: url(./images/11.png);
+        background-image: url(./portfolli-img/donation.png);
     }
     50% {
-        background-image: url(./images/12.png);
+        background-image: url(./portfolli-img/donationchart.png);
     }
     60% {
-        background-image: url(./images/16.png);
+        background-image: url(./portfolli-img/food.png);
     }
     70% {
-        background-image: url(./images/11.png);
+        background-image: url(./portfolli-img/github.png);
     }
     80% {
-        background-image: url(./images/13.png);
+        background-image: url(./portfolli-img/manageitem.png);
     }
     90% {
-        background-image: url(./images/14.png);
+        background-image: url(./portfolli-img/login\ now.png);
     }
     100% {
-        background-image: url(./images/15.png);
+        background-image: url(./portfolli-img/playnow.png);
     }
     110% {
-        background-image: url(./images/17.png);
+        background-image: url(./portfolli-img/);
     }
     120% {
-        background-image: url(./images/18.png);
+        background-image: url(./portfolli-img/newspaper.png);
     }
     130% {
-        background-image: url(./images/0.jpg);
+        background-image: url(./portfolli-img/poduct\ ads.png);
     }
 }
 
